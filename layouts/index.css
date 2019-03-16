@@ -349,9 +349,9 @@ nav li ul, nav li ol {
   margin-bottom: 0;
 }
 .sidebar p, .sidebar li {
-  font-family: "Open Sans"
+  font-family: "Open Sans";
   line-height: 1.5;
-  font-size: .9em;
+  font-size: 0.9em;
 }
 .sidebar img {
   width: 100%;
@@ -361,7 +361,7 @@ nav li ul, nav li ol {
   display: table-cell;
 
   width: 40px;
-  height: 4opx;
+  height: 40px;
 
   vertical-align: top;
 }
@@ -727,7 +727,7 @@ ul.share li a {
   float: left;
   clear: both;
 
-  width: 100%;;
+  width: 100%;
 }
 
 /* Footer */
