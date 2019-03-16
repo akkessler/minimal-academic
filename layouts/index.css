@@ -305,6 +305,7 @@ nav li ul, nav li ol {
   clear: both;
 
   margin-bottom: 1em;
+  color: #fff;
 }
 .sidebar::after {
   display: table;
@@ -314,16 +315,19 @@ nav li ul, nav li ol {
 }
 @media (max-width: 64em) {
   .sidebar {
-    position: relative;
-    z-index: 10;
-
     -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
-
-    color: #fff;
+  }
+}
+.masthead-hero {
+  margin-bottom: -88px;
+}
+@media (min-width: 64em) {
+  .sidebar {
+    color: #000;
   }
   .masthead-hero {
-    margin-bottom: -88px;
+    margin-bottom: -32px;
   }
 }
 @media (min-width: 64em) {
